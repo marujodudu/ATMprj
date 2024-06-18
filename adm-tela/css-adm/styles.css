@@ -1,0 +1,8 @@
+.bg-light-pink {
+    background-color: #fce9e9; /* Escolha a cor rosa claro desejada */
+}
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

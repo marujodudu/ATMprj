@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #fce9e9; /* Escolha a cor rosa claro desejada */
+}
+
+.my-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.my-container h2 {
+    margin-bottom: 20px;
+}
+
+.my-image {
+    max-width: 100%;
+    height: auto;
+}
