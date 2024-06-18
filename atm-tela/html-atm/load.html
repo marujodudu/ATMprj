@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css-atm/saque.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100" onclick="goToConfirmation()">
+        <div class="loading-container text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Carregando...</span>
+            </div>
+            <p class="mt-3">Processando seu saque...</p>
+        </div>
+    </div>
+    <script>
+        function goToConfirmation() {
+            window.location.href = 'confirmacao.html';
+        }
+    </script>
+</body>
+</html>

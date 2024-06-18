@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fce9e9; /* Escolha a cor rosa claro desejada */
+    background-color: #fce9e9;
     margin: 0;
 }
 
@@ -16,19 +16,6 @@ body {
 html, body {
     height: 100%;
     width: 100%;
-}
-
-.bg {
-    background-image: url('../assets/bg.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .container {
